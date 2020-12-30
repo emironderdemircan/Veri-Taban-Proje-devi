@@ -1,0 +1,21 @@
+İş Kuralları
+##############
+1)Bir bisiklet firması internet üzerinden bisiklet kiralayıp veya satmaktadır.
+2)Her kullanıcının kullaniciId , ad , soyad , email , yetki ve cinsiyet bilgileri mevcuttur
+3)kullanıcılar yetkilerine göre müşteri ve yetkili olarak ikiye ayrılır.
+4)Her bisikletin urunId , urunAdi , firmaİd , alisFiyati , satisFiyati , bisikletTürü bilgileri mevcuttur.
+5)Kategori içerisinde dag bisikleti , sehir bisikleti , yarıs bisikleti , cocuk bisikleti bilgileri mevcuttur.
+6)Siparis_Detay tablosu içerisinde siparisId , urunId , ve adet bilgileri mevcuttur. Her ürünün bir siparişi olabilir ancak her
+siparişte birden fazla ürün olabilir.
+7)Siparişler tablosu içerisinde siparisId , tarih , musteriId bilgileri mevcuttur. Her sipariş detayın bir siparişi olabilir ancak
+her siparişin birden fazla sipariş detayı olabilir.
+8)firmId içerisinde firmId , firmaAdi , adres , tel , fax , email bilgileri mevcuttur.
+9)Kiralık bisiklet tablosunda urunId , urunAdi , kategoriId , kiraFiyati bilgileri mevcuttur.
+10)Müşteri tablosu içerisinde musteriId , kullaniciId , adresId ve telefonId bilgileri mevcuttur.
+11)Adres tablosunda adresId , il , ilçe , mahalle ve apartmanNo bilgileri tutulur.
+12)Bir müşterinin en az bir adresi bulunurken bir adresin birden fazla müsterisi olabilir.
+13)Telefon tablosunda telefonId , işTel , cepTel ve evTel bilgileri tutulur.
+14)Bir müşterinin en az bir telefonu bulunurken bir telefonun birden fazla müsterisi olabilir.
+15)Bisikletler tür olarak ikiye ayrılır erkek ve kadın bisiklet olarak.Ve bunlarda urunId , fiyat ve garanti süresi bilgileri tutulur.
+16)Bu firmanın bir topluluğu vardır.Ve isteyen müşteriler oraya kayıt yaptırabilir.
+17)Topluluk tablosunda toplulukId , kisiSayisi ve bisikletTürü bilgileri tutulur.
